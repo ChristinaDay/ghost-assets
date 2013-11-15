@@ -444,6 +444,7 @@ table.plain {
 
 .post-title {
     margin:0;
+    text-align: center;
 }
 
 .post-title a {
@@ -542,6 +543,10 @@ table.plain {
     display: block;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.post-content p {
+    text-align: center;
 }
 
 /* The author credit area after the post */
