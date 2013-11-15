@@ -394,13 +394,21 @@ table.plain {
     letter-spacing: -1px;
 }
 
-.blog-description {
+.blog-description, .contact {
     margin: 0;
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
     font-family: 'Droid Serif', serif;
     letter-spacing: 0;
+}
+
+.blog-description a, .contact a {
+    text-decoration: none;
+}
+
+.blog-description a:hover, .contact a:hover {
+    text-decoration: underline;
 }
 
 /* Every post, on every page, gets this style on its <article> tag */
